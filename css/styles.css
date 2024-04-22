@@ -271,8 +271,9 @@ img {
 /* !================================DECKTOP============================ */
 @media screen and (min-width: 1158px) {
   .container {
-    max-width: 1140px;
-    /* padding: 0 15px; */
+    min-width: 1158px;
+
+    padding: 0 15px;
     /* padding: 120px 156px; */
   }
   /* ------------------------------hero---------------------- */
@@ -305,7 +306,7 @@ img {
   /* ------------------------------------------------advant---------------------------------- */
 
   .advant-menu {
-    width: 1128px;
+    /* width: 1128px; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -349,6 +350,8 @@ img {
     flex-wrap: nowrap;
     flex-direction: row;
     gap: 24px;
+    align-items: center;
+    justify-content: center;
   }
   .icon-item {
     flex-basis: calc(100%-24px * 3) / 4;
