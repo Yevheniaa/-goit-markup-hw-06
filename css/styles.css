@@ -263,7 +263,7 @@ img {
 /*!===================================TABLET===================*/
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 736px;
+    max-width: 768px;
   }
   /* ------------------------------------------------hero--------------------- */
   .hero {
@@ -308,23 +308,24 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 64px 24px;
+    gap: 24px;
     text-align: center;
-    /* margin: 0 auto; */
+ 
   }
   .section-team-list {
     flex-basis: calc((100% - 24px) / 2);
   }
   /* ---------------------------portfolio--------------- */
-  .section-portfolio-menu {
+ 
+     .section-portfolio-menu {
+    width:768px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 72px 24px;
   }
   .section-portfolio-list {
-    width: 356px;
-    flex-basis: calc ((100% - 24px) / 2);
+       flex-basis: calc ((100% - 24px) / 2);
   }
 
   .portfolio-image {
@@ -370,7 +371,7 @@ img {
   /* ------------------------------------------------advant---------------------------------- */
 
   .advant-menu {
-    /* width: 1128px; */
+    
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -427,8 +428,19 @@ img {
     margin: 0 auto;
   }
   /* --------------------portfolio-------------- */
+
+  .section-portfolio-menu {
+    width: 1128px;;
+     gap: 48px 24px;
+  }
+  .section-portfolio-list {
+    flex-basis: calc ((100% - 24px *2 ) / 3 );
+  
   .portfolio-image {
     width: 360px;
     height: 300px;
   }
+  /* .portfolio-cover-text {
+    display: block;
+  } */
 }
