@@ -211,6 +211,55 @@ img {
 .icon-icon {
   fill: #fff;
 }
+/* --------------------------portfolio----------- */
+.section-portfolio {
+}
+.container {
+}
+.section-portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.section-portfolio-menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 72px;
+}
+.section-portfolio-list {
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+
+.portfolio-image {
+  width: 288px;
+  height: 280px;
+}
+.portfolio-cover-text {
+  display: none;
+}
+.portfolio-sublist {
+  margin: 32px 16px;
+  text-align: left;
+}
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 /*!===================================TABLET===================*/
 @media screen and (min-width: 768px) {
   .container {
@@ -266,6 +315,22 @@ img {
   .section-team-list {
     flex-basis: calc((100% - 24px) / 2);
   }
+  /* ---------------------------portfolio--------------- */
+  .section-portfolio-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+  .section-portfolio-list {
+    width: 356px;
+    flex-basis: calc ((100% - 24px) / 2);
+  }
+
+  .portfolio-image {
+    width: 356px;
+    height: 300px;
+  }
 }
 
 /* !================================DECKTOP============================ */
@@ -273,8 +338,7 @@ img {
   .container {
     min-width: 1158px;
 
-    padding: 0 15px;
-    /* padding: 120px 156px; */
+    padding: 120px 15px;
   }
   /* ------------------------------hero---------------------- */
   .hero {
@@ -361,5 +425,10 @@ img {
     flex-wrap: nowrap;
     gap: 24px;
     margin: 0 auto;
+  }
+  /* --------------------portfolio-------------- */
+  .portfolio-image {
+    width: 360px;
+    height: 300px;
   }
 }
