@@ -214,8 +214,7 @@ img {
 /* --------------------------portfolio----------- */
 .section-portfolio {
 }
-.container {
-}
+
 .section-portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -260,6 +259,105 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* --------------------------------footer-------------------- */
+.section-footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+ letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+margin: 0 auto;
+  
+}
+.footer-logo-white {
+  font-family: "Raleway", sans-serif;
+    color: #f4f4fd;
+
+
+}
+.footer-text {font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+    letter-spacing: 0.02em;
+  color: #f4f4fd;
+  margin-bottom: 72px;
+  margin-top: 16px;
+  
+}
+.footer-cos-link {
+  width: 208px;
+  margin: 72px auto;
+font-weight: 500;
+ 
+ letter-spacing: 0.02em;
+color: #fff;
+}
+.footer-icon-list {
+  display: flex; 
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 16px;
+
+}
+.footer-icon-item {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:  #4d5ae5;
+}
+
+.footer-icon-icon {
+    fill: #f4f4fd;
+    text-align: center;
+    
+}
+.footer-input-wrap {
+  min-width: 288px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-input-label {
+  width: 100%;
+font-weight: 500;
+ letter-spacing: 0.02em;
+color: #fff;
+}
+.footer-name {
+  font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 12px;
+background-color: #2e2f42;
+letter-spacing: 0.04em;
+color: #fff;
+width: 320px;
+
+}
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 0 auto;
+
+}
+.foter-form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+  background: #4d5ae5;
+  width: 165px;
+}
+
 /*!===================================TABLET===================*/
 @media screen and (min-width: 768px) {
   .container {
@@ -440,7 +538,5 @@ img {
     width: 360px;
     height: 300px;
   }
-  /* .portfolio-cover-text {
-    display: block;
-  } */
+
 }
