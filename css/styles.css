@@ -36,10 +36,46 @@ img {
 }
 .container {
   max-width: 320px;
-  padding: 96px 16px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 /* !==============================MOBILE========================= */
+/* ----------------------header------------------------------ */
+.header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-logo-black {
+  color: #2e2f42;
+}
+
+.header-wrap {
+}
+.header-icon-menu {
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header-menu-list {
+  display: none;
+}
+
+.cover {
+}
+.header-contacts {
+  display: none;
+}
+
 /* -------------------------------------------------hero----------------------------------- */
 .hero {
   background-image: linear-gradient(
@@ -50,6 +86,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding: 96px 0;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 2dpp),
@@ -95,6 +132,7 @@ img {
 /* -------------------------------------------------------advant------------------- */
 .advant {
   background: #fff;
+  padding: 96px 0;
 }
 .visually-hidden {
   position: absolute;
@@ -140,6 +178,7 @@ img {
 
 .section-team {
   background-color: #f4f4fd;
+  padding: 96px 0;
 }
 .section-team-title {
   font-weight: 700;
@@ -211,12 +250,13 @@ img {
 /* --------------------------portfolio----------- */
 
 .section-portfolio-title {
+  padding: 96px 0;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 .section-portfolio-menu {
   display: flex;
@@ -257,6 +297,7 @@ img {
 /* --------------------------------footer-------------------- */
 .section-footer {
   background-color: #2e2f42;
+  padding: 96px 0;
 }
 .footer-wrap-logo {
   display: flex;
@@ -476,7 +517,8 @@ img {
   .container {
     min-width: 1158px;
 
-    padding: 120px 15px;
+    /* padding: 120px 15px; */
+    padding: 0 15px;
   }
   /* ------------------------------hero---------------------- */
   .hero {
@@ -512,6 +554,7 @@ img {
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 24px;
+    padding: 120px 0;
   }
 
   .advant-menu-list {
@@ -527,7 +570,7 @@ img {
     align-items: center;
     justify-content: center;
     margin-bottom: 8px;
-    padding: 32px 0;
+    /* padding: 32px 0; */
   }
   .advant-subtitle {
     font-weight: 500;
@@ -547,6 +590,7 @@ img {
   /* ---------------------------------------team--------------------- */
 
   .section-team-menu {
+    padding: 120px 0;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -564,7 +608,9 @@ img {
     margin: 0 auto;
   }
   /* --------------------portfolio-------------- */
-
+  .section-portfolio {
+    padding: 120px 0;
+  }
   .section-portfolio-menu {
     width: 1128px;
     gap: 48px 24px;
