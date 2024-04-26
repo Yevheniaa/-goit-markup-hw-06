@@ -773,17 +773,29 @@ img {
     height: 300px;
   }
   /* -------------------------------------footer---------------- */
+  .container.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
 
   .footer-cos-link {
     margin: 0;
     padding: 0;
+    width: 208px;
   }
   .footer-wrap-logo {
     width: 264px;
-    height: 112px;
   }
-  footer-cos-link {
-    width: 208px;
+  .footer-input-wrap {
+    width: 453px;
+  }
+  .footer-form {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin: 0;
   }
 
   /* ---------------------------------modal---------------------- */
@@ -945,7 +957,6 @@ img {
     background: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 156px;
   }
   .section-footer .container {
     display: flex;
@@ -1016,8 +1027,7 @@ img {
   .footer-input-wrap {
     margin-left: 80px;
   }
-  .footer-input-wrap {
-  }
+
   .footer-form {
     display: flex;
 
