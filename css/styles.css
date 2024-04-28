@@ -974,7 +974,7 @@ img {
   /* ------------------------------hero---------------------- */
 
   .hero {
-    max-width: 1158px;
+    max-width: 1440px;
     padding: 188px auto;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
