@@ -43,7 +43,7 @@
         </nav>
         <address class="header-contacts">
           <ul class="header-address-menu">
-               <li class="header-address-item">
+              <li class="header-address-item">
               <a class="header-address-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
@@ -120,7 +120,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <button class="hero-button" type="button" data-modal-open>Order Service</button>
         </div>
       </section>
       <section class="advant">
@@ -683,9 +683,9 @@
       </div>
     </footer>
     <!-- =========================MODAL====================  -->
-    <div class="backdrope">
+    <div class="backdrope" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close-btn">
+        <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
