@@ -73,8 +73,10 @@ img {
   position: fixed;
   top: 0;
   left: 0;
+
   width: 100%;
   height: 100%;
+
   background-color: #fff;
   opacity: 0;
   visibility: hidden;
@@ -115,6 +117,9 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.cover {
+  color: #404bbf;
+}
 .header-open-menu-link:focus {
   color: #404bbf;
 }
@@ -138,7 +143,7 @@ img {
 .header-address-link-open:focus {
   color: #4d5ae5;
 }
-.header-menu-cos-icon {
+.header-open-menu-cos-icon {
   display: flex;
   flex-direction: row;
   gap: 40px;
@@ -171,7 +176,7 @@ img {
   background-color: #fcfcfc;
   border-radius: 4px;
   width: 288px;
-  mheight: 623px;
+  height: 623px;
   padding: 24px 16px;
   top: 50%;
   left: 50%;
@@ -359,7 +364,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 96px 0;
+  padding: 72px 0;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 2dpp),
