@@ -365,6 +365,8 @@ img {
   background-position: center;
   background-size: cover;
   padding: 72px 0;
+  max-width: 320px;
+  margin: 0 auto;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 2dpp),
@@ -469,12 +471,12 @@ img {
   margin-bottom: 72px;
 }
 .section-team-menu {
-  width: 264px;
   display: flex;
   flex-direction: column;
 
   gap: 72px;
-  margin: 0 auto;
+
+  align-items: center;
 }
 
 .team-discription {
@@ -556,7 +558,7 @@ img {
   display: none;
 }
 .portfolio-sublist {
-  margin: 32px 16px;
+  padding: 32px 16px;
   text-align: left;
 }
 .portfolio-subtitle {
@@ -601,7 +603,7 @@ img {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-bottom: 72px;
+
   margin-top: 16px;
 }
 .footer-cos-link {
@@ -677,7 +679,7 @@ img {
 .footer-input-email {
   border: 1px solid #ffffff;
   border-radius: 4px;
-  width: 264px;
+  width: 288px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
@@ -815,7 +817,9 @@ img {
   }
 
   /* ------------------------------------------------hero--------------------- */
+
   .hero {
+    max-width: 768px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -853,22 +857,21 @@ img {
   }
   /* -----------------------------team----------------- */
   .section-team-menu {
-    width: 584px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 64px 24px;
     text-align: center;
+    justify-content: center;
   }
   .section-team-list {
-    flex-basis: calc((100% - 24px) / 2);
+    flex-basis: calc((100% - 215px) / 2);
   }
   /* ---------------------------portfolio--------------- */
   .section-portfolio {
     padding-bottom: 96px;
   }
   .section-portfolio-menu {
-    width: 768px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -883,14 +886,12 @@ img {
     height: 300px;
   }
   /* -------------------------------------footer---------------- */
-  .section-footer {
-    padding-left: 108px;
-  }
   .container.footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 72px 24px;
+    max-width: 530px;
   }
   .footer-text {
     margin-bottom: 0;
@@ -902,6 +903,7 @@ img {
     width: 208px;
   }
   .footer-wrap-logo {
+    /* display: flex; */
     display: block;
     width: 264px;
   }
@@ -970,7 +972,9 @@ img {
   }
 
   /* ------------------------------hero---------------------- */
+
   .hero {
+    max-width: 1158px;
     padding: 188px auto;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
